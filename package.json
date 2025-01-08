@@ -2,9 +2,6 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": ">=20.0.0"
-  },
   "dependencies": {
     "@canvasjs/react-charts": "^1.0.2",
     "@canvasjs/react-stockcharts": "^1.0.2",
