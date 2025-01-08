@@ -6,7 +6,7 @@ import TransactionOrder from '../card/dashboard/TransactionOrder';
 import PurchaseQuantity from '../card/dashboard/PurchaseQuantity';
 import PortfolioPerformance from '../card/dashboard/PortfolioPerformance';
 import SectorPerformance from '../card/dashboard/SectorPerformance';
-import { ToastContainer, toast, Zoom } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
