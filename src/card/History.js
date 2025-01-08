@@ -40,7 +40,7 @@ const MyTransactions = ({ data }) => {
                             </div>
                             <div className="text-right w-36">
 
-                                <div className={(action == "Buy") ? "text-green-500 font-bold" : "text-red-500 font-bold"}>{action}</div>
+                                <div className={(action === "Buy") ? "text-green-500 font-bold" : "text-red-500 font-bold"}>{action}</div>
                             </div>
                         </div>
                     </div>

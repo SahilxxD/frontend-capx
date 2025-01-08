@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import logo from './logo.svg';
 import './App.css';
 import StoicexDashboard from './page/DashboardPage';
 import PortfolioPage from './page/PortfolioPage';

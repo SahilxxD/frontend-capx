@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ApexCharts from 'apexcharts';
 import ApexChartComponent from '../../analytics/Chart';
 

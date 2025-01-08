@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import MyPortfolio from '../card/MyPortfolio';
 import AddForm from '../form/AddForm';
-import { ToastContainer, toast, Zoom } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -12,11 +12,10 @@ const PorfolioPage = () => {
     const [isInitialFetchDone, setIsInitialFetchDone] = useState(false); // Flag to track initial data fetch
     const [portfolio, setPortfolio] = useState([]);
     const [portfolioModified, setPortfolioModified] = useState(false);
-    const [loading, setLoading] = useState(false);
 
 
     const fetchPortfoliodData = async () => {
-        setLoading(true);
+
         const apiUrl = process.env.REACT_APP_API_URL;
         try {
             const response = await axios.get(`${apiUrl}/data/portfolio`, {
@@ -28,9 +27,7 @@ const PorfolioPage = () => {
         } catch (error) {
             console.error('Error fetching portfolio updates:', error);
         }
-        finally {
-            setLoading(false);
-        }
+
     };
 
     const fetchPortfolioUpdates = async () => {
