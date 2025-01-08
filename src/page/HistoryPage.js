@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import MyTransactions from '../card/History';
-import { ToastContainer, toast, Zoom } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import { formatDistanceToNow } from 'date-fns';
 import 'react-toastify/dist/ReactToastify.css';
 
