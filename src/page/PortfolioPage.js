@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import MyPortfolio from '../card/MyPortfolio';
 import AddForm from '../form/AddForm';
-import { ToastContainer, toast, Zoom } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 
 import 'react-toastify/dist/ReactToastify.css';
 
