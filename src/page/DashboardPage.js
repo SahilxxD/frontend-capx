@@ -32,11 +32,11 @@ const StoicexDashboard = () => {
         console.log("REACT_APP_API_URL", apiUrl)
 
         try {
-            const response = await axios.get(`${apiUrl}/data/dashboard`, {
+            const response = await axios.get(`http://backend-capx-production.up.railway.app/data/dashboard`, {
             });
-
+            console.log("REACT_APP_API_URL", apiUrl)
             const updatedData = response.data;
-
+            console.log("REACT_APP_API_URL", updatedData)
             // Map updated data to dashboard
             const topPerformer = updatedData.topStock;
             const combinePortfolio = updatedData.allStocksCombine;

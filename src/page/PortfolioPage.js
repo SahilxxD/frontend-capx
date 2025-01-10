@@ -18,7 +18,7 @@ const PorfolioPage = () => {
 
         const apiUrl = process.env.REACT_APP_API_URL;
         try {
-            const response = await axios.get(`${apiUrl}/data/portfolio`, {
+            const response = await axios.get(`http://${apiUrl}/data/portfolio`, {
             });
 
             const updatedData = response.data;
