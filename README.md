@@ -11,7 +11,8 @@ CapX is a responsive investment platform optimized for both desktop and mobile d
 ## Demo Video
 
 [![Watch the Desktop demo video]](https://www.youtube.com/watch?v=kPFLAaVYi8o)
-[![Watch the Desktop demo video]](https://www.youtube.com/shorts/4XWlNmSK6rI?si=lO6c8thznbsJUfVU)
+
+[![Watch the Movile demo video]](https://www.youtube.com/shorts/4XWlNmSK6rI?si=lO6c8thznbsJUfVU)
 
 
 ## Features
