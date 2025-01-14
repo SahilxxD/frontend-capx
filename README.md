@@ -1,70 +1,42 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview(updates realtime with 1minute interval)
 
-## Available Scripts
+Deployed Front-End:  
+[CapX App](https://capx--ashen.vercel.app/)
 
-In the project directory, you can run:
+# CapX App
 
-### `npm start`
+CapX is a responsive investment platform optimized for both desktop and mobile devices. It provides real-time updates, portfolio insights, and an intuitive user experience for efficient stock management.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Dashboard
+- Real-time updates on page load and refresh.  
+- Displays current portfolio value, invested portfolio value, and a combined performance chart of all portfolio stocks.  
+- Highlights the top-performing stock based on price change.  
+- Visualizes portfolio diversification and industry distribution with a pie chart.
 
-### `npm test`
+### Portfolio Page
+- Updates stock prices and changes in real-time at 1-minute intervals.  
+- Lists stocks with details: quantity, invested price, price change, current price, and industry.  
+- "Add Stock" functionality with a search-enabled popup with auto-suggestions to quickly find and add stocks to the portfolio .
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### History Page
+- Logs all transactions (add, buy, sell) with timestamps.  
+- Shows stock name, quantity, and transaction type (e.g., buy or sell).
 
-### `npm run build`
+## How to Run the Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Download the project zip file from GitHub.  
+2. Extract the zip file and open the folder in VSCode.  
+3. Open the terminal and execute the following commands:  
+   ```bash
+   npm install   # Installs all dependencies.
+   npm start     # Starts the development server.
+   ```
+4. Access the app at [http://localhost:3000](http://localhost:3000).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Known Limitation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- When a stock is sold completely (e.g., selling all shares of a stock), the app does not record profit or loss into the portfolio value.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
