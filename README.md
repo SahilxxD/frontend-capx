@@ -8,6 +8,11 @@ Deployed Front-End:
 
 CapX is a responsive investment platform optimized for both desktop and mobile devices. It provides real-time updates, portfolio insights, and an intuitive user experience for efficient stock management.
 
+## Demo Video
+
+[![Watch the demo video]](https://www.youtube.com/watch?v=kPFLAaVYi8o)
+
+
 ## Features
 
 ### Dashboard
